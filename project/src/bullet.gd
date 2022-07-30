@@ -15,7 +15,9 @@ func _ready():
 func _physics_process(delta):
 	position += transform.y * speed * delta * -1
 
-func _on_Bullet_body_entered(body):
-	if body.is_in_group("mobs"):
-		body.queue_free()
+
+
+
+func _on_Bullet_area_entered(area):
+	hide()
 	queue_free()
