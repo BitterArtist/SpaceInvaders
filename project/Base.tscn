@@ -1,7 +1,10 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://Player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Shield.tscn" type="PackedScene" id=2]
+[ext_resource path="res://SmallInvader.tscn" type="PackedScene" id=3]
+[ext_resource path="res://MediumInvader.tscn" type="PackedScene" id=4]
+[ext_resource path="res://LargeInvader.tscn" type="PackedScene" id=5]
 
 [node name="Base" type="Node2D"]
 
@@ -17,5 +20,14 @@ position = Vector2( 183, 572 )
 [node name="Shield3" parent="." instance=ExtResource( 2 )]
 position = Vector2( 266, 572 )
 
-[node name="Shield" parent="Shield3" instance=ExtResource( 2 )]
-position = Vector2( 82, 0 )
+[node name="SmallInvader" parent="." instance=ExtResource( 3 )]
+position = Vector2( 88, 281 )
+
+[node name="MediumInvader" parent="." instance=ExtResource( 4 )]
+position = Vector2( 89, 327 )
+
+[node name="Shield4" parent="." instance=ExtResource( 2 )]
+position = Vector2( 348, 572 )
+
+[node name="LargeInvader" parent="." instance=ExtResource( 5 )]
+position = Vector2( 91, 383 )

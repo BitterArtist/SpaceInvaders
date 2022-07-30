@@ -53,18 +53,6 @@ position = Vector2( 15, -16 )
 [node name="Pixel19" parent="." instance=ExtResource( 1 )]
 position = Vector2( 23, -16 )
 
-[node name="Pixel" parent="Pixel19" instance=ExtResource( 1 )]
-position = Vector2( -4, -4 )
-
-[node name="Pixel" parent="Pixel19/Pixel" instance=ExtResource( 1 )]
-position = Vector2( 0, 4 )
-
-[node name="Pixel2" parent="Pixel19/Pixel" instance=ExtResource( 1 )]
-position = Vector2( 0, 8 )
-
-[node name="Pixel3" parent="Pixel19/Pixel" instance=ExtResource( 1 )]
-position = Vector2( 0, 12 )
-
 [node name="Pixel21" parent="." instance=ExtResource( 1 )]
 position = Vector2( 7, -20 )
 
@@ -101,20 +89,86 @@ position = Vector2( 27, -4 )
 [node name="Pixel28" parent="." instance=ExtResource( 1 )]
 position = Vector2( 27, 0 )
 
-[node name="Pixel" parent="Pixel28" instance=ExtResource( 1 )]
-position = Vector2( 4, 0 )
+[node name="Pixel29" parent="." instance=ExtResource( 1 )]
+position = Vector2( -1, 0 )
 
-[node name="Pixel2" parent="Pixel28" instance=ExtResource( 1 )]
-position = Vector2( 4, -4 )
+[node name="Pixel30" parent="." instance=ExtResource( 1 )]
+position = Vector2( -1, -4 )
 
-[node name="Pixel3" parent="Pixel28" instance=ExtResource( 1 )]
-position = Vector2( 4, -8 )
+[node name="Pixel31" parent="." instance=ExtResource( 1 )]
+position = Vector2( -1, -8 )
 
-[node name="Pixel4" parent="Pixel28" instance=ExtResource( 1 )]
-position = Vector2( 4, -12 )
+[node name="Pixel32" parent="." instance=ExtResource( 1 )]
+position = Vector2( -1, -16 )
 
-[node name="Pixel5" parent="Pixel28" instance=ExtResource( 1 )]
-position = Vector2( 4, -16 )
+[node name="Pixel33" parent="." instance=ExtResource( 1 )]
+position = Vector2( -1, -12 )
 
-[node name="Pixel6" parent="Pixel28" instance=ExtResource( 1 )]
-position = Vector2( 0, -20 )
+[node name="Pixel34" parent="." instance=ExtResource( 1 )]
+position = Vector2( 35, 0 )
+
+[node name="Pixel35" parent="." instance=ExtResource( 1 )]
+position = Vector2( 35, -4 )
+
+[node name="Pixel36" parent="." instance=ExtResource( 1 )]
+position = Vector2( 35, -8 )
+
+[node name="Pixel37" parent="." instance=ExtResource( 1 )]
+position = Vector2( 35, -12 )
+
+[node name="Pixel38" parent="." instance=ExtResource( 1 )]
+position = Vector2( 35, -16 )
+
+[node name="Pixel39" parent="." instance=ExtResource( 1 )]
+position = Vector2( 3, -20 )
+
+[node name="Pixel40" parent="." instance=ExtResource( 1 )]
+position = Vector2( 31, -20 )
+
+[node name="Pixel41" parent="." instance=ExtResource( 1 )]
+position = Vector2( 31, 0 )
+
+[node name="Pixel42" parent="." instance=ExtResource( 1 )]
+position = Vector2( 31, -4 )
+
+[node name="Pixel43" parent="." instance=ExtResource( 1 )]
+position = Vector2( 31, -8 )
+
+[node name="Pixel44" parent="." instance=ExtResource( 1 )]
+position = Vector2( 31, -12 )
+
+[node name="Pixel45" parent="." instance=ExtResource( 1 )]
+position = Vector2( 31, -16 )
+
+[node name="Pixel46" parent="." instance=ExtResource( 1 )]
+position = Vector2( 27, -20 )
+
+[node name="Pixel47" parent="." instance=ExtResource( 1 )]
+position = Vector2( 7, -24 )
+
+[node name="Pixel48" parent="." instance=ExtResource( 1 )]
+position = Vector2( 11, -24 )
+
+[node name="Pixel49" parent="." instance=ExtResource( 1 )]
+position = Vector2( 15, -24 )
+
+[node name="Pixel50" parent="." instance=ExtResource( 1 )]
+position = Vector2( 19, -24 )
+
+[node name="Pixel51" parent="." instance=ExtResource( 1 )]
+position = Vector2( 23, -24 )
+
+[node name="Pixel52" parent="." instance=ExtResource( 1 )]
+position = Vector2( 27, -24 )
+
+[node name="Pixel53" parent="." instance=ExtResource( 1 )]
+position = Vector2( 19, -20 )
+
+[node name="Pixel54" parent="." instance=ExtResource( 1 )]
+position = Vector2( 19, -16 )
+
+[node name="Pixel55" parent="." instance=ExtResource( 1 )]
+position = Vector2( 19, -12 )
+
+[node name="Pixel56" parent="." instance=ExtResource( 1 )]
+position = Vector2( 19, -8 )
