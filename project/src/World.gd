@@ -1,5 +1,4 @@
-extends Area2D
-signal hit
+extends Node2D
 
 
 # Declare member variables here. Examples:
@@ -9,17 +8,9 @@ signal hit
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	$CollisionShape2D.set_deferred("disabled", false)
+	pass # Replace with function body.
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 #func _process(delta):
 #	pass
-
-
-func _on_Pixel_area_entered(area):
-	hide()
-	emit_signal("hit")
-	$CollisionShape2D.set_deferred("disabled", true)
-
-
